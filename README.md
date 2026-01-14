@@ -8,6 +8,8 @@ A simple Python wrapper built around the Shodan and AbuseIPDB APIs for ease of u
 - **AbuseIPDB Integration** - Check IP reputation and abuse confidence scores
 - **Type-safe Models** - Built with Pydantic for data validation and type safety
 
+- **Tool only currently does get simple info this is a demo!!!
+
 ## Setup
 
 1. Install dependencies:
@@ -20,7 +22,6 @@ pip install requests pydantic python-dotenv
 SHODAN_KEY=your_shodan_api_key_here
 ABUSE_KEY=your_abuseipdb_api_key_here
 ```
-
 
 ## Files
 
