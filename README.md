@@ -21,24 +21,9 @@ SHODAN_KEY=your_shodan_api_key_here
 ABUSE_KEY=your_abuseipdb_api_key_here
 ```
 
-## Usage
-
-```python
-from test import shodan_lookup, abuseipcheck
-
-# Lookup an IP in Shodan
-shodan_lookup("8.8.8.8")
-
-# Check IP reputation in AbuseIPDB
-abuseipcheck("193.237.209.38")
-```
 
 ## Files
 
 - `models.py` - Pydantic models for API responses
 - `test.py` - API wrapper functions
 - `.env` - Your API keys (not tracked in Git)
-
-## Note
-
-Make sure to keep your `.env` file secure and never commit it to version control.
