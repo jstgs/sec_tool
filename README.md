@@ -8,7 +8,7 @@ A simple Python wrapper built around the Shodan and AbuseIPDB APIs for ease of u
 - **AbuseIPDB Integration** - Check IP reputation and abuse confidence scores
 - **Type-safe Models** - Built with Pydantic for data validation and type safety
 
-- **Tool only currently does get simple info this is a demo!!!
+- **Tool only currently does get simple info this is a demo!!!**
 
 ## Setup
 
