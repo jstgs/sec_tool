@@ -1,0 +1,60 @@
+# Environment variables
+.env
+.env.*
+.env.local
+.env.*.local
+*.env
+
+# Secrets and credentials
+secrets/
+secrets.*
+*secret*
+*.key
+*.pem
+*.pfx
+*.p12
+*.crt
+*.cer
+config/secrets.yaml
+config/secrets.json
+credentials.json
+*.credentials
+token
+*.token
+api_keys*
+*apikey*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test output
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives that might contain sensitive data
+*.zip
+*.tar.gz
+*.rar
